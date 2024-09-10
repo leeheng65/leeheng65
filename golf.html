@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golf</title>
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <style>
+        .card-img-top {
+            background-color: rgb(127, 202, 255);
+            transition: opacity 0.3s;
+            padding-top: 10px;
+            border-radius: 10px;
+        }
+
+        .image-content-golf {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 400px;
+            height: 500px;
+            margin: 0 auto;
+            border: 2px solid;
+            padding: 10px;
+            border-radius: 10px;
+            border-color: rgb(2, 145, 217);
+            border-radius: 20px;
+            transition: 1.5s;
+            transform: scale(.95);
+        }
+        
+        .image-content-golf:hover {
+            transition: 1s;
+            transform: scale(1);
+        }
+        
+        .img-golf {
+            margin-left: auto;
+            margin-right: auto;
+            padding: 5px;
+            border-radius: 20px;
+            width: 500px;
+            height: 300px;
+        }
+        
+        .golf_items {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 1400px;
+            margin: 0 auto;
+            border-radius: 10px;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    </style>
+    
+</head>
+<body> 
+
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark fixed-top">
+        <div class="container-fluid center">
+          <a class="navbar-brand" href="index.html"><img src="img/logo.png" style="width: 40px;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <a class="nav-link" style="font-size: 20px;" aria-current="page" href="index.html">Home</a>
+              </li>
+    
+              <li class="nav-item dropdown " >
+                <a class="nav-link active" style="font-size: 20px;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Product
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="football.html">Football</a></li>
+              <li><a class="dropdown-item" href="volleyball.html">Volleyball</a></li>
+              <li><a class="dropdown-item" href="basketball.html">Basketball</a></li>
+              <li><a class="dropdown-item" href="tennis.html">Tennis</a></li>
+              <li><a class="dropdown-item" href="golf.html">Golf</a></li>
+              <li><a class="dropdown-item" href="badminton.html">Batminton</a></li>
+                </ul>
+              </li>
+    
+              </li class="nav-item" >
+                <a class="nav-link" aria-disabled="true" href="about.html" style="font-size: 20px;">About</a>
+    
+              </li>
+    
+              <li class="nav-item" >
+                <a class="nav-link " style="font-size: 20px;" aria-disabled="true" href="form.html">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="content">
+        <h1>
+            Golf Equipment
+        </h1>
+      </div>
+
+    <div class="golf_items">
+        <div class="image-content-golf">
+            <h5 class="card-img-top" style="text-align: center">TaylorMade Qi10 MAX Driver</h5>
+            <img class="img-golf" src="img/ph_img/golf1.jpg" alt="TaylorMade Qi10 MAX Driver"> 
+                <div>
+                  <p>2024 Golf Digest Hot List Gold Winner</p>
+                  <p>$599.99</p>
+                </div>
+        </div>
+
+        <div class="image-content-golf">
+            <h5 class="card-img-top" style="text-align: center">TaylorMade Qi Irons</h5>
+            <img class="img-golf" src="img/ph_img/golf2.jpg" alt="TaylorMade Qi Irons"> 
+                <div>
+                  <p>Who's It For: Players seeking flexibility control and straighter shots</p>
+                  <p>$1099.99</p>
+                </div>
+        </div>
+
+        <div class="image-content-golf">
+            <h5 class="card-img-top" style="text-align: center">Titleist Vokey Design SM9 Wedge</h5>
+            <img class="img-golf" src="img/ph_img/golf3.jpg" alt="Titleist Vokey Design SM9 Wedge"> 
+                <div>
+                  <p>Maximized Spin, Added Distance and Trajectory Control, and Shot Versatility</p>
+                  <p>$164.99</p>
+                </div>
+        </div>
+
+        <div class="image-content-golf">
+            <h5 class="card-img-top" style="text-align: center">PING G430 MAX 10K Driver</h5>
+            <img class="img-golf" src="img/ph_img/golf4.jpg" alt="PING G430 MAX 10K Driver"> 
+                <div>
+                  <p>Who's It For: For players seeking long distance performance with confidence to hit longer, straighter tee shots</p>
+                  <p>$599.99</p>
+                </div>
+        </div>
+
+        <div class="image-content-golf">
+            <h5 class="card-img-top" style="text-align: center">Mizuno T24 Wedge</h5>
+            <img class="img-golf" src="img/ph_img/golf5.jpg" alt="Mizuno T24 Wedge"> 
+                <div>
+                  <p>One-piece Grain Flow Forged HD Boron</p>
+                  <p>$179.99</p>
+                </div>
+        </div>
+
+        <div class="image-content-golf">
+            <h5 class="card-img-top" style="text-align: center">Callaway Rogue ST MAX Fairway Wood</h5>
+            <img class="img-golf" src="img/ph_img/golf6.jpg" alt="Callaway Rogue ST MAX Fairway Wood"> 
+                <div>
+                  <p>Designed for Distance, Forgiveness, and All-Around Performance</p>
+                  <p>$279.99</p>
+                </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-secondary text-center text-white " >
+      <div class="text-center p-3">
+        <p>&copy; 2024 NPL Sport Store.</p>
+      </div>
+    </footer>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</html>

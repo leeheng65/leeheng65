@@ -1,0 +1,157 @@
+/* index */
+body {
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .bg {
+    background-position: center;
+    background-size: cover;
+    display: block;
+    width: 100%;
+  }
+
+  .bg-content {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .content-index {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .image-content-index {
+    border: 1px solid;
+    border-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    height: 350px;
+    margin: 5px auto;
+    padding: 0;
+    transition: 1.5s;
+    transform: scale(.95);
+  }
+
+  .image-content-index:hover {
+    transition: 2s;
+    transform: scale(1);
+  }
+
+  .img-index {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    border-radius: 10px;
+    height: 300px;
+    width: 400px;
+  }
+
+  .title {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+  }
+
+  .nav-copyright {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .navbar {
+    margin-bottom: 5px;
+    width: 100%;
+  }
+
+  ul li .dropdown-item:hover{
+    color: white;
+    background-color: gray;
+  }
+
+/* about */
+
+.content {
+    text-align: center;
+   padding-top: 80px;
+}
+
+.image-content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 200px;
+    height: 350px;
+    margin: 0 auto;
+    border: 2px solid;
+    padding: 0;
+    border-radius: 10px;
+    border-color: rgb(0, 64, 240);
+    border-radius: 20px;
+    transition: 1.5s;
+    transform: scale(.95);
+}
+
+.image-content:hover {
+    transition: 1s;
+    transform: scale(1);
+}
+
+.img {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.Member-info {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 5px;
+    width: 300px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.member {
+
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+}
+
+.contact {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* form */
+
+.container {
+    margin-top: 25px;
+}
+
+.bg-secondary{
+  margin-top: 80px;
+}
+
